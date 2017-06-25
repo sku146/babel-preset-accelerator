@@ -1,0 +1,61 @@
+{
+  "name": "babel-preset-accelerator",
+  "version": "1.0.0",
+  "description": "Collection of babel presets & plugins, following our styleguide",
+  "keywords": [
+    "babel",
+    "babelpreset",
+    "config",
+    "accelerator",
+    "javascript",
+    "styleguide"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "sku146",
+    "email": "skumar146@sapient.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sku146/babel-preset-accelerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sku146/babel-preset-accelerator/issues",
+    "email": "skumar146@sapient.com"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es3-member-expression-literals": "6.22.0",
+    "babel-plugin-transform-es3-property-literals": "6.22.0",
+    "babel-plugin-transform-exponentiation-operator": "6.24.1",
+    "babel-plugin-transform-jscript": "6.22.0",
+    "babel-plugin-transform-object-assign": "6.22.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-plugin-lodash": "3.2.11",
+    "babel-preset-env": "1.4.0",
+    "babel-preset-react": "6.24.1",
+    "babel-register": "6.24.1",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-runtime": "6.23.0",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1"
+  },
+  "devDependencies": {
+    "npm-check": "5.4.4"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 3"
+  }
+}

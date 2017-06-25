@@ -1,0 +1,14 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    "transform-es3-member-expression-literals",
+    "transform-es3-property-literals",
+    "transform-jscript",
+    "transform-exponentiation-operator",
+    "transform-object-rest-spread",
+    "add-module-exports",
+    "transform-object-assign",
+    "transform-class-properties",
+    "transform-runtime"
+  ]
+}

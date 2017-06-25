@@ -1,0 +1,13 @@
+{
+  "presets": [["env", {"modules":false}], "react"],
+  "plugins": [
+    "transform-es3-member-expression-literals",
+    "transform-es3-property-literals",
+    "transform-exponentiation-operator",
+    "transform-jscript",
+    "transform-object-rest-spread",
+    "transform-object-assign",
+    "transform-class-properties",
+    "transform-runtime"
+  ]
+}
